@@ -1,5 +1,44 @@
-# Sign-Language-Digits-Recognition
-This project involves sign language in which hand is used for pointing out the number from 1 to 9 . It is very useful for the help of deaf people to understand the things.
+# Sign Language Digits Recognition  
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Motivation behind it
-During our semester project, we came across this project in which we used CNN(Convolutional Neural Networks). This Project I had done as group project for the subject with title "Introduction to Machine Learning".
+A computer vision and deep learning project for recognizing American Sign Language (ASL) digits (0–9) from hand gesture images using Convolutional Neural Networks (CNNs).
+
+---
+
+## 📌 Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Model Architecture](#model-architecture)
+- [Training & Evaluation](#training--evaluation)
+- [Results](#results)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [Future Work](#future-work)
+- [Contributors](#contributors)
+- [License](#license)
+
+---
+
+## 🔍 Overview
+
+This project aims to classify hand signs of digits (0 to 9) in **American Sign Language (ASL)** using deep learning. The model takes an image as input and predicts the corresponding digit. This can be helpful for developing sign language interpretation tools for communication aids.
+
+---
+
+## 📊 Dataset
+
+- **Source:** [Kaggle - Sign Language Digits Dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist)
+- **Classes:** 10 digits (0–9)
+- **Samples:** 2,000+ grayscale images per digit
+- **Image Size:** 28x28 pixels
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/sign-language-digit-recognition.git
+cd sign-language-digit-recognition
+
