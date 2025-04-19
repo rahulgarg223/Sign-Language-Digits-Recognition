@@ -42,3 +42,17 @@ Clone the repository:
 git clone https://github.com/your-username/sign-language-digit-recognition.git
 cd sign-language-digit-recognition
 
+
+pip install -r requirements.txt
+
+Input (28x28x1) →
+Conv2D(32 filters, 3x3) + ReLU →
+MaxPooling(2x2) →
+Conv2D(64 filters, 3x3) + ReLU →
+MaxPooling(2x2) →
+Flatten →
+Dense(128) + ReLU →
+Dropout(0.5) →
+Dense(10) + Softmax
+
+
